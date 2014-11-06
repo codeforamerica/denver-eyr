@@ -87,7 +87,7 @@ body {
   margin: 0;
   border-right: 1px solid #e6e6e6;
 }
-.sidenav { line-height: 1em; }
+.sidenav { line-height: 16px; }
 .sidenav li > ul > li { padding-left: 20px;}
 .sidebar .nav > .active > a,
 .sidebar .nav > .active:focus > a {
@@ -138,26 +138,16 @@ body {
   -moz-border-radius: 150px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 20px
-}
-.team {
-  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .teammate {
   text-align: center;
   height: 250px;
 }
 
-/*
- * Carousel
- *
- */
-.carousel-control.right, .carousel-control.left {
-  background-image: none;
-}
-
-.teamname {font-weight: 700;}
-.teammate:hover {
+.teammember {font-weight: 700;}
+.teammember:hover {
   color: #f15a24;
   text-decoration: none;
   -webkit-transition: 500ms;
@@ -174,35 +164,38 @@ body {
 .dave { background: url(../images/dave.jpg) no-repeat; }
 
 
+/*
+ * Carousel
+ *
+ */
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+}
 
 
-/* ===== MEDIA QUERIES ===== */
 
+
+
+/*
+ * MEDIA QUERIES
+ *
+ */
 @media (min-width: 1201px){
-  body {background-color: blue;}
 }
 @media (max-width: 1200px) and (min-width:992px){
-  body {background-color: green;}
 }
 @media (max-width: 991px) and (min-width:768px){
-  body {background-color: orange;}
-  /*Hide Sidebar*/
   .sidebar {display: none;}
-
 }
 @media (max-width: 767px){ 
-  body {background-color: red;}
   .sidebar{display: none;}
   .content-box {
     margin: 10px;
     padding: 30px;
   }
-  /*Hide Sidebar*/
-  /*Decrease Gutters*/
-  /*Icon-only buttons*/
-  /*Decrease Jumbotron Size*/
   .jumbotron {
     padding: 80px 30px 80px;
+    margin-bottom: 20px;
   }
   .lead {font-size:1.2em;}
   .subtitle {font-size:1.2em;}
