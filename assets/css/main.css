@@ -15,7 +15,6 @@ h1, h2, h3, h4, h5 {
   display: inline;
   margin-top: 12px; 
 }
-
 body {
   padding-top: 50px;
   background-color: #f2f2f2;
@@ -26,6 +25,7 @@ body {
   line-height: 2em;
   position: relative;
 }
+
 
 /*
  * Page Header
@@ -38,7 +38,6 @@ body {
   color: white;
   font-family: "aktiv-grotesk-std", Helvetica, Arial, sans-serif;
   text-align: center;
-  line-height: 1.2em;
 }
 .lead {
   font-size: 2em;
@@ -64,7 +63,6 @@ body {
   -moz-box-shadow:    0px 3px 10px 0px rgba(50, 50, 50, 0.1);
   box-shadow:         0px 3px 10px 0px rgba(50, 50, 50, 0.1);*/
 }
-
 .content-header {
   margin-bottom: 30px;
 }
@@ -79,7 +77,6 @@ body {
  * Scrollspy and affixed enhanced navigation to highlight sections and secondary
  * sections of docs content.
  */
-
 .sidebar {
   font-size: 14px;
   height: 100%;
@@ -88,7 +85,7 @@ body {
   margin: 0;
   border-right: 1px solid #e6e6e6;
 }
-.sidenav { line-height: 1em; }
+.sidenav { line-height: 16px; }
 .sidenav li > ul > li { padding-left: 20px;}
 .sidebar .nav > .active > a,
 .sidebar .nav > .active:focus > a {
@@ -139,17 +136,15 @@ body {
   -moz-border-radius: 150px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 20px
-}
-.team {
-  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .teammate {
   text-align: center;
   height: 250px;
 }
-.teamname {font-weight: 700;}
-.teammate:hover {
+.teammember {font-weight: 700;}
+.teammember:hover {
   color: #f15a24;
   text-decoration: none;
   -webkit-transition: 500ms;
@@ -157,6 +152,13 @@ body {
   -o-transition: 500ms;
   transition:  500ms;
 }
+.becky { background: url(../images/becky.jpg) no-repeat; }
+.drew { background: url(../images/drew.jpg) no-repeat; }
+.kavi { background: url(../images/kavi.jpg) no-repeat; }
+.sarah { background: url(../images/sarah.jpg) no-repeat; }
+.chris { background: url(../images/chris.jpg) no-repeat; }
+.dave { background: url(../images/dave.jpg) no-repeat; }
+
 
 /*
  * RoyalSlider
@@ -165,7 +167,6 @@ body {
 .royalSlider {
   width: 100%;
 }
-/* Background */
 .rsDefaultInv,
 .rsDefaultInv .rsOverflow,
 .rsDefaultInv .rsSlide,
@@ -175,22 +176,6 @@ body {
   color: #222;
 }
 
-
-/*
- * GeoJson Map
- *
- */
-iframe {
-  width: 100% !important;
-}
-
-
-.becky { background: url(../images/becky.jpg) no-repeat; }
-.drew { background: url(../images/drew.jpg) no-repeat; }
-.kavi { background: url(../images/kavi.jpg) no-repeat; }
-.sarah { background: url(../images/sarah.jpg) no-repeat; }
-.chris { background: url(../images/chris.jpg) no-repeat; }
-.dave { background: url(../images/dave.jpg) no-repeat; }
 
 /*
  * Inline Stats and Images
@@ -220,4 +205,40 @@ iframe {
  }
 img.inline-image.pull-right { margin-left: 20px; }
 img.inline-image.pull-left { margin-right: 20px; }
+
+
+/*
+ * GeoJson Map
+ *
+ */
+iframe {
+  width: 100% !important;
+}
+
+
+/*
+ * MEDIA QUERIES
+ *
+ */
+@media (min-width: 1201px){
+}
+@media (max-width: 1200px) and (min-width:992px){
+}
+@media (max-width: 991px) and (min-width:768px){
+  .sidebar {display: none;}
+}
+@media (max-width: 767px){ 
+  .sidebar{display: none;}
+  .content-box {
+    margin: 10px;
+    padding: 30px;
+  }
+  .jumbotron {
+    padding: 80px 30px 80px;
+    margin-bottom: 20px;
+  }
+  .lead {font-size:1.2em;}
+  .subtitle {font-size:1.2em;}
+
+}
 
