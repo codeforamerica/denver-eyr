@@ -148,15 +148,6 @@ body {
   text-align: center;
   height: 250px;
 }
-
-/*
- * Carousel
- *
- */
-.carousel-control.right, .carousel-control.left {
-  background-image: none;
-}
-
 .teamname {font-weight: 700;}
 .teammate:hover {
   color: #f15a24;
@@ -166,6 +157,33 @@ body {
   -o-transition: 500ms;
   transition:  500ms;
 }
+
+/*
+ * RoyalSlider
+ *
+ */
+.royalSlider {
+  width: 100%;
+}
+/* Background */
+.rsDefaultInv,
+.rsDefaultInv .rsOverflow,
+.rsDefaultInv .rsSlide,
+.rsDefaultInv .rsVideoFrameHolder,
+.rsDefaultInv .rsThumbs {
+  background: #f2f2f2;
+  color: #222;
+}
+
+
+/*
+ * GeoJson Map
+ *
+ */
+iframe {
+  width: 100% !important;
+}
+
 
 .becky { background: url(../images/becky.jpg) no-repeat; }
 .drew { background: url(../images/drew.jpg) no-repeat; }
