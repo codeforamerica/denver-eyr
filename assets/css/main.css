@@ -6,6 +6,7 @@
 .container-fluid{  
   width: 100%;
   margin-top: -50px;
+  padding:0;
 }
 .main { padding: 0; }
 .row {margin: 0;}
@@ -30,6 +31,7 @@ body {
  * Page Header
  *
  */
+.container-fluid .jumbotron {border-radius: 0;}
 .jumbotron{
   padding: 100px 100px;
   background-color: #22b573;
@@ -155,8 +157,7 @@ body {
   background-image: none;
 }
 
-}
-.teamname {font-weight: 700; }
+.teamname {font-weight: 700;}
 .teammate:hover {
   color: #f15a24;
   text-decoration: none;
