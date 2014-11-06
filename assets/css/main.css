@@ -86,7 +86,7 @@ body {
   margin: 0;
   border-right: 1px solid #e6e6e6;
 }
-.sidenav { line-height: 1em;}
+.sidenav { line-height: 1em; }
 .sidenav li > ul > li { padding-left: 20px;}
 .sidebar .nav > .active > a,
 .sidebar .nav > .active:focus > a {
@@ -129,16 +129,50 @@ body {
  * Team
  *
  */
- .teammate {
-  background-color: red;
+.circular {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px
+}
+.team {
+  margin-top: 50px;
+}
+.teammate {
   text-align: center;
   height: 250px;
- }
+}
 
 /*
  * Carousel
  *
  */
- .carousel-control.right, .carousel-control.left {
+.carousel-control.right, .carousel-control.left {
   background-image: none;
- }
+}
+
+}
+.teamname {font-weight: 700; }
+.teammate:hover {
+  color: #f15a24;
+  text-decoration: none;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
+  transition:  500ms;
+}
+
+.becky { background: url(/assets/img/becky.jpg) no-repeat; }
+.drew { background: url(/assets/img/drew.jpg) no-repeat; }
+.kavi { background: url(/assets/img/kavi.jpg) no-repeat; }
+.sarah { background: url(/assets/img/sarah.jpg) no-repeat; }
+.chris { background: url(/assets/img/chris.jpg) no-repeat; }
+.dave { background: url(/assets/img/dave.jpg) no-repeat; }
+
+
+
+
