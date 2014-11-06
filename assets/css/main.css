@@ -15,7 +15,6 @@ h1, h2, h3, h4, h5 {
   display: inline;
   margin-top: 12px; 
 }
-
 body {
   padding-top: 50px;
   background-color: #f2f2f2;
@@ -26,6 +25,7 @@ body {
   line-height: 2em;
   position: relative;
 }
+
 
 /*
  * Page Header
@@ -63,7 +63,6 @@ body {
   -moz-box-shadow:    0px 3px 10px 0px rgba(50, 50, 50, 0.1);
   box-shadow:         0px 3px 10px 0px rgba(50, 50, 50, 0.1);*/
 }
-
 .content-header {
   margin-bottom: 30px;
 }
@@ -78,7 +77,6 @@ body {
  * Scrollspy and affixed enhanced navigation to highlight sections and secondary
  * sections of docs content.
  */
-
 .sidebar {
   font-size: 14px;
   height: 100%;
@@ -145,7 +143,6 @@ body {
   text-align: center;
   height: 250px;
 }
-
 .teammember {font-weight: 700;}
 .teammember:hover {
   color: #f15a24;
@@ -155,7 +152,6 @@ body {
   -o-transition: 500ms;
   transition:  500ms;
 }
-
 .becky { background: url(../images/becky.jpg) no-repeat; }
 .drew { background: url(../images/drew.jpg) no-repeat; }
 .kavi { background: url(../images/kavi.jpg) no-repeat; }
@@ -165,15 +161,59 @@ body {
 
 
 /*
- * Carousel
+ * RoyalSlider
  *
  */
-.carousel-control.right, .carousel-control.left {
-  background-image: none;
+.royalSlider {
+  width: 100%;
+}
+.rsDefaultInv,
+.rsDefaultInv .rsOverflow,
+.rsDefaultInv .rsSlide,
+.rsDefaultInv .rsVideoFrameHolder,
+.rsDefaultInv .rsThumbs {
+  background: #f2f2f2;
+  color: #222;
 }
 
 
+/*
+ * Inline Stats and Images
+ *
+ */
+ .inline-stat {
+  display: block;
+  max-width: 400px;
+  height: 100%;
+  padding: 40px;
+  text-align: center;
+  color:#4d4d4d;
+ }
+ .inline-stat .bold {
+  font-size: 30px;
+  font-weight: 700;
+ }
+ .inline-stat .light {
+  font-size: 16px;
+  font-weight: 300;
+ }
+ .inline-image {
+  display: block;
+  max-width: 300px;
+  margin-top: 10px;
+  border-radius: 5px;
+ }
+img.inline-image.pull-right { margin-left: 20px; }
+img.inline-image.pull-left { margin-right: 20px; }
 
+
+/*
+ * GeoJson Map
+ *
+ */
+iframe {
+  width: 100% !important;
+}
 
 
 /*
