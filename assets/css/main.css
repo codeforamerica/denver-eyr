@@ -166,12 +166,12 @@ body {
   transition:  500ms;
 }
 
-.becky { background: url(/assets/img/becky.jpg) no-repeat; }
-.drew { background: url(/assets/img/drew.jpg) no-repeat; }
-.kavi { background: url(/assets/img/kavi.jpg) no-repeat; }
-.sarah { background: url(/assets/img/sarah.jpg) no-repeat; }
-.chris { background: url(/assets/img/chris.jpg) no-repeat; }
-.dave { background: url(/assets/img/dave.jpg) no-repeat; }
+.becky { background: url(../images/becky.jpg) no-repeat; }
+.drew { background: url(../images/drew.jpg) no-repeat; }
+.kavi { background: url(../images/kavi.jpg) no-repeat; }
+.sarah { background: url(../images/sarah.jpg) no-repeat; }
+.chris { background: url(../images/chris.jpg) no-repeat; }
+.dave { background: url(../images/dave.jpg) no-repeat; }
 
 
 
