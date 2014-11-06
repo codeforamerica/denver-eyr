@@ -12,7 +12,7 @@
 .row {margin: 0;}
 
 h1, h2, h3, h4, h5 { 
-  display: inline;
+  /*display: inline-block;*/
   margin-top: 12px; 
 }
 body {
@@ -25,7 +25,6 @@ body {
   line-height: 2em;
   position: relative;
 }
-
 
 /*
  * Page Header
@@ -46,6 +45,47 @@ body {
 .subtitle {
   font-size: 2em;
   font-weight: 200;
+}
+
+
+/*
+ * Section Header
+ *
+ */
+ .section-header {
+  text-align: center;
+  padding:50px;
+}
+.section-header > h1 {
+color:#b3b3b3;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 4px;
+}
+h1.line {
+  line-height: 0.5;
+  text-align: center;
+}
+h1.line span {
+  display: inline-block;
+  position: relative;  
+}
+h1.line span:before,
+h1.line span:after {
+  content: "";
+  position: absolute;
+  height: 8px;
+  border-bottom: 1px solid #b3b3b3;
+  top: 0;
+  width:100%;
+}
+h1.line span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+h1.line span:after {
+  left: 100%;
+  margin-left: 15px;
 }
 
 
@@ -113,6 +153,7 @@ body {
   border: 1px solid #e6e6e6;
   border-radius: 3px;
   color: #808080;
+  margin-top: 8px;
 }
 .btn-white:hover {
   color: #f15a24;
@@ -215,6 +256,17 @@ iframe {
   width: 100% !important;
 }
 
+/*
+ * Project-specific tweaks
+ *
+ */
+#intro, #team { text-align: center; }
+#intro > h1, #team > h1 {
+  padding-bottom: 30px;
+  color:#4d4d4d;
+  font-weight: 300;}
+h2 { display: inline-block;}
+
 
 /*
  * MEDIA QUERIES
@@ -230,7 +282,7 @@ iframe {
 @media (max-width: 767px){ 
   .sidebar{display: none;}
   .content-box {
-    margin: 10px;
+    margin: 20px 10px 20px 10px;
     padding: 30px;
   }
   .jumbotron {
@@ -239,6 +291,9 @@ iframe {
   }
   .lead {font-size:1.2em;}
   .subtitle {font-size:1.2em;}
+  .section-header > h1 {font-size: 1.2em;}
+  h1.line span:before,
+  h1.line span:after { max-width: 40px;}
 
 }
 
