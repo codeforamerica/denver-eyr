@@ -38,7 +38,6 @@ body {
   color: white;
   font-family: "aktiv-grotesk-std", Helvetica, Arial, sans-serif;
   text-align: center;
-  line-height: 1.2em;
 }
 .lead {
   font-size: 2em;
@@ -176,4 +175,37 @@ body {
 
 
 
+
+/* ===== MEDIA QUERIES ===== */
+
+@media (min-width: 1201px){
+  body {background-color: blue;}
+}
+@media (max-width: 1200px) and (min-width:992px){
+  body {background-color: green;}
+}
+@media (max-width: 991px) and (min-width:768px){
+  body {background-color: orange;}
+  /*Hide Sidebar*/
+  .sidebar {display: none;}
+
+}
+@media (max-width: 767px){ 
+  body {background-color: red;}
+  .sidebar{display: none;}
+  .content-box {
+    margin: 10px;
+    padding: 30px;
+  }
+  /*Hide Sidebar*/
+  /*Decrease Gutters*/
+  /*Icon-only buttons*/
+  /*Decrease Jumbotron Size*/
+  .jumbotron {
+    padding: 80px 30px 80px;
+  }
+  .lead {font-size:1.2em;}
+  .subtitle {font-size:1.2em;}
+
+}
 
