@@ -10,7 +10,6 @@
 }
 .main { padding: 0; }
 .row {margin: 0;}
-
 h1, h2, h3, h4, h5 { 
   display: inline;
   margin-top: 12px; 
@@ -68,6 +67,7 @@ body {
 }
 .content-header > h2 {
   font-size: 1.2em;
+  max-width: 40%;
 }
 
 
@@ -107,7 +107,6 @@ body {
 .btn {
   margin-left: 10px;
 }
-
 .btn-white {
   background-color: white;
   border: 1px solid #e6e6e6;
@@ -115,8 +114,8 @@ body {
   color: #808080;
 }
 .btn-white:hover {
-  color: #f15a24;
-  border-color: #f15a24;
+  color: #22b573;
+  border-color: #22b573;
   -webkit-transition: 500ms;
   -moz-transition: 500ms;
   -o-transition: 500ms;
