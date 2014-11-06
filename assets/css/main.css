@@ -127,3 +127,11 @@ body {
   text-align: center;
   height: 250px;
  }
+
+/*
+ * Carousel
+ *
+ */
+ .carousel-control.right, .carousel-control.left {
+  background-image: none;
+ }
