@@ -1,0 +1,129 @@
+/*
+ * Scaffolding
+ *
+ * Update the basics of our documents to prep for docs content.
+ */
+.container-fluid{  
+  width: 100%;
+  margin-top: -50px;
+}
+.main { padding: 0; }
+.row {margin: 0;}
+
+h1, h2, h3, h4, h5 { 
+  display: inline;
+  margin-top: 12px; }
+
+body {
+  padding-top: 50px;
+  background-color: #f2f2f2;
+  font-family: "aktiv-grotesk-std", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #333;
+  font-size: 2em;
+  line-height: 2em;
+  position: relative;
+}
+
+/*
+ * Page Header
+ *
+ */
+.jumbotron{
+  padding: 100px 100px;
+  background-color: #22b573;
+  color: white;
+  font-family: "aktiv-grotesk-std", Helvetica, Arial, sans-serif;
+  text-align: center;
+  line-height: 1.2em;
+}
+.lead {
+  font-size: 2em;
+  font-weight: 700;
+}
+.subtitle {
+  font-size: 2em;
+  font-weight: 200;
+}
+
+
+/*
+ * Content Groups
+ *
+ */
+.content-box {
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  padding: 50px;
+  margin: 50px;
+/*  -webkit-box-shadow: 0px 3px 10px 0px rgba(50, 50, 50, 0.1);
+  -moz-box-shadow:    0px 3px 10px 0px rgba(50, 50, 50, 0.1);
+  box-shadow:         0px 3px 10px 0px rgba(50, 50, 50, 0.1);*/
+}
+
+.content-header {
+  margin-bottom: 30px;
+}
+
+
+/*
+ * Side navigation
+ *
+ * Scrollspy and affixed enhanced navigation to highlight sections and secondary
+ * sections of docs content.
+ */
+
+.sidebar {
+  font-size: .7em;
+  height: 100%;
+  background-color: white ;
+  padding: 20px;
+  margin: 0;
+  border-right: 1px solid #e6e6e6;
+}
+.sidenav { line-height: 1em;}
+.sidenav li > ul > li { padding-left: 20px;}
+.sidebar .nav > .active > a,
+.sidebar .nav > .active:hover > a,
+.sidebar .nav > .active:focus > a {
+  font-weight: bold;
+  color: #f15a24;
+  text-shadow: none;
+  border-left: 2px solid #f15a24;
+}
+
+
+/*
+ * Buttons
+ *
+ */
+.btn {
+  margin-left: 10px;
+}
+
+.btn-white {
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  color: #428bca;
+}
+.btn-white:hover {
+  color: #346998;
+  border-color: #346998;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
+  transition:  500ms;
+}
+
+
+/*
+ * Team
+ *
+ */
+ .teammate {
+  background-color: red;
+  text-align: center;
+  height: 250px;
+ }
