@@ -13,55 +13,60 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/royalslider/royalslider.css">
-    <link rel="stylesheet" href="assets/royalslider/skins/default-inverted/rs-default-inverted.css"> 
+    <link rel="stylesheet" href="assets/royalslider/skins/default-inverted/rs-default-inverted.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    
+    <link href="assets/css/jasny-bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
-  
+
+
   </head>
-  
+
   <body data-spy="scroll" data-target=".sidebar" >
 
+<div class="navmenu navmenu-default navmenu-fixed-left sidebar">
+     <a class="navmenu-brand" href="#">Denver Report</a>
+     <ul class="nav navmenu-nav sidenav">
+      <li>
+        <a href="#intro">Introduction</a>
+      </li>
+      <li>
+        <a href="#team">Team</a>
+      </li>
+      <li>
+        <a href="#projects">Projects</a>
+        <ul class="nav">
+          <li><a href="#street-sweeping">Denver Street Sweeping</a></li>
+          <li><a href="#311">Denver 311 Indicators</a></li>
+          <li><a href="#mj">Denver Marijuana Indicators</a></li>
+          <li><a href="#cuties">@CutePetsInDenver</a></li>
+          <li><a href="#pt">Denver Property Tax Statement</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#impact">Impact</a>
+        <ul class="nav">
+          <li><a href="#research">User Research</a></li>
+          <li><a href="#infographic">Infographic Template</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#brigade">Brigade</a></li>
+          <li><a href="#blog-posts">Blog Posts</a></li>
+          <li><a href="#press">Press</a></li>
+        </ul>
+      </li>
+     </ul>
+   </div>
+   <div class="canvas">
 
+    <div class="navbar navbar-default navbar-fixed-top">
+     <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas" style="background-color:#8DE9BF">
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+     </button>
+    </div>
 
     <div class="container-fluid">
-      <div class="row">
-          <div class="sidebar col-md-3 affix" role="complementary">
-            <ul class="nav sidenav">
-              
-                <li>
-                  <a href="#intro">Introduction</a>
-                </li>
-                <li>
-                  <a href="#team">Team</a>
-                </li>
-                <li>
-                  <a href="#projects">Projects</a>
-                  <ul class="nav">
-                    <li><a href="#street-sweeping">Denver Street Sweeping</a></li>
-                    <li><a href="#311">Denver 311 Indicators</a></li>
-                    <li><a href="#mj">Denver Marijuana Indicators</a></li>
-                    <li><a href="#cuties">@CutePetsInDenver</a></li>
-                    <li><a href="#pt">Denver Property Tax Statement</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#impact">Impact</a>
-                  <ul class="nav">
-                    <li><a href="#research">User Research</a></li>
-                    <li><a href="#infographic">Infographic Template</a></li>
-                    <li><a href="#events">Events</a></li>
-                    <li><a href="#brigade">Brigade</a></li>
-                    <li><a href="#blog-posts">Blog Posts</a></li>
-                    <li><a href="#press">Press</a></li>
-                  </ul>
-                </li>
-              
-            </ul>
-          </div> <!-- bs-sidebar -->
-
-        
-        <div class="col-md-9 col-md-offset-3 main" role="main">
+        <div class="main" role="main">
 
           <div class="jumbotron">
             <div class="lead">Denver End of Year Report</div>
@@ -74,9 +79,9 @@
             <h1>Introduction</h1>
             <p>This year Becky, Drew, and Kavi worked with the City and County of Denver to develop several small tactical projects to demonstrate the value of open data and good service design to the city and it’s residents. </p>
           </div>
-          
+
           <!-- Team
-          ================================================== -->  
+          ================================================== -->
           <div id="team" class="content-box">
             <h1>Team</h1>
             <div class="row team">
@@ -139,7 +144,7 @@
               <a href="http://github.com/codeforamerica/denver-schedules-api" class="btn btn-sm btn-white pull-right"><i class="fa fa-github-alt fa-fw"></i><span class="hidden-xs hidden-sm"> Get the Code</span></a>
               <a href="http://streetsweep.co" class="btn btn-sm btn-white pull-right"><i class="fa fa-globe fa-fw"></i><span class="hidden-xs hidden-sm"> Visit the website</span></a>
             </div>
-            
+
               <p>
               <div class="inline-stat pull-right">
                 <span class="bold">$7.5 Million</span>
@@ -151,7 +156,7 @@
               <div class="royalSlider rsDefaultInv">
                 <img class="rsImg" src="assets/images/streetsweeping.png" alt="image desc" />
                 <img class="rsImg" src="assets/images/becky.jpg" alt="image desc" />
-              </div>  
+              </div>
 
           </div>
 
@@ -173,15 +178,15 @@
             </div>
 
             <p>Bill and Melinda Gates; disruptor liberal assistance Gandhi fundraising campaign. Protect clean water healthcare planned giving, investment humanitarian relief communities solution immunize. Human-centered design, transformative, altruism inspire social change challenges celebrate human rights implementation. Innovation, gender; empower sustainable future climate change new approaches resourceful. Catalytic effect Kickstarter Rockefeller criteria cornerstone, diversification proper resources nonprofit. Integrity, campaign invest underprivileged, innovate; freedom grantees. Visionary recognition thinkers who make change happen human experience approach affordable health care worldwide. Life-saving eradicate inspiration; collaborative cities solve rights-based approach marginalized communities achieve. Meaningful; voice positive social change Angelina Jolie promising development transform meaningful work. Conflict resolution,.</p>
-            
+
             <div class="royalSlider rsDefaultInv">
               <img class="rsImg" src="assets/images/meow.jpg" alt="a cat">
               <img class="rsImg" src="assets/images/woof.jpg" alt="a dog">
               <img class="rsImg" src="assets/images/whiskers.jpg" alt="a cat">
               <img class="rsImg" src="assets/images/fluffy.jpg" alt="a dog">
-            </div>  
+            </div>
 
-            
+
           </div>
 
           <div id="cuties" class="content-box">
@@ -190,8 +195,8 @@
               <a href="https://github.com/codeforamerica/CutePets" class="btn btn-sm btn-white pull-right"><i class="fa fa-github-alt fa-fw"></i><span class="hidden-xs hidden-sm"> Get the Code</span></a>
               <a href="https://twitter.com/CutePetsDenver" class="btn btn-sm btn-white pull-right"><i class="fa fa-twitter fa-fw"></i><span class="hidden-xs hidden-sm"> View the Twitter page</span></a>
             </div>
-            
-            <p>Bill and Melinda Gates; disruptor liberal assistance Gandhi fundraising campaign. Protect clean water healthcare planned giving, investment humanitarian relief communities solution immunize. Human-centered design, transformative, altruism inspire social change challenges celebrate human rights implementation. Innovation, gender; empower sustainable future climate change new approaches resourceful. Catalytic effect Kickstarter Rockefeller criteria cornerstone, diversification proper resources nonprofit. Integrity, campaign invest underprivileged, innovate; freedom grantees. Visionary recognition thinkers who make change happen human experience approach affordable health care worldwide. Life-saving eradicate inspiration; collaborative cities solve rights-based approach marginalized communities achieve. Meaningful; voice positive social change Angelina Jolie promising development transform meaningful work. Conflict resolution,.</p>            
+
+            <p>Bill and Melinda Gates; disruptor liberal assistance Gandhi fundraising campaign. Protect clean water healthcare planned giving, investment humanitarian relief communities solution immunize. Human-centered design, transformative, altruism inspire social change challenges celebrate human rights implementation. Innovation, gender; empower sustainable future climate change new approaches resourceful. Catalytic effect Kickstarter Rockefeller criteria cornerstone, diversification proper resources nonprofit. Integrity, campaign invest underprivileged, innovate; freedom grantees. Visionary recognition thinkers who make change happen human experience approach affordable health care worldwide. Life-saving eradicate inspiration; collaborative cities solve rights-based approach marginalized communities achieve. Meaningful; voice positive social change Angelina Jolie promising development transform meaningful work. Conflict resolution,.</p>
             <script src="https://embed.github.com/view/geojson/codeforamerica/CutePets/master/where.geojson"></script>
 
           </div>
@@ -260,10 +265,10 @@
 
 
         </div> <!-- #main -->
-      </div> <!-- row -->   
-    </div> <!-- container -->   
 
+    </div> <!-- container -->
 
+  </div> <!-- canvas -->
     <!-- JS and analytics only. -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
@@ -273,6 +278,7 @@
     <script src="//use.typekit.net/swa5fok.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
     <script src="assets/javascript/denver-eyr.js"></script>
-    
+    <script src="assets/javascript/jasny-bootstrap.min.js"></script>
+
   </body>
 </html>

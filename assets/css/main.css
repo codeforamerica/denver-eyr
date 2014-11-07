@@ -3,16 +3,16 @@
  *
  * Update the basics of our documents to prep for docs content.
  */
-.container-fluid{  
+.container-fluid{
   width: 100%;
-  margin-top: -50px;
+  /*margin-top: -50px;*/
   padding:0;
 }
 .main { padding: 0; }
 .row {margin: 0;}
-h1, h2, h3, h4, h5 { 
+h1, h2, h3, h4, h5 {
   /*display: inline-block;*/
-  margin-top: 12px; 
+  margin-top: 12px;
 }
 body {
   padding-top: 50px;
@@ -67,7 +67,7 @@ h1.line {
 }
 h1.line span {
   display: inline-block;
-  position: relative;  
+  position: relative;
 }
 h1.line span:before,
 h1.line span:after {
@@ -278,7 +278,7 @@ h2 { display: inline-block;}
 @media (max-width: 991px) and (min-width:768px){
   .sidebar {display: none;}
 }
-@media (max-width: 767px){ 
+@media (max-width: 767px){
   .sidebar{display: none;}
   .content-box {
     margin: 20px 10px 20px 10px;
@@ -296,3 +296,45 @@ h2 { display: inline-block;}
 
 }
 
+/* from jasny */
+html, body {
+  height: 100%;
+}
+
+.navbar-toggle {
+  float: left;
+  margin-left: 15px;
+}
+
+.navmenu {
+  z-index: 1;
+}
+
+.canvas {
+  position: relative;
+  left: 0;
+  z-index: 2;
+  min-height: 100%;
+  padding: 50px 0 0 0;
+  background: #fff;
+}
+
+@media (min-width: 0) {
+  .navbar-toggle {
+    display: block; /* force showing the toggle */
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    padding: 0;
+  }
+  .navbar {
+    right: auto;
+    background: none;
+    border: none;
+  }
+  .canvas {
+    padding: 0;
+  }
+}
