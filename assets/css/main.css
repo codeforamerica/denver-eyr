@@ -35,6 +35,51 @@ p > a:hover, li > a:hover {
   transition:  500ms;
 }
 
+/*
+ * Navbar Styles
+ *
+ */
+.navbar-header {background-color: #22b573;}
+nav.navbar { border-color: #22b573; border-radius: 0;}
+.navbar-toggle { border-color: #fff;}
+.navbar-toggle:hover,
+.navbar-toggle .icon-bar { background-color: #fff; }
+.navbar-toggle:hover .icon-bar {background-color: #22b573;}
+.navbar-collapse, .navbar-form, .navbar-collapse:hover, .navbar-form:hover { background-color: #22b573;}
+.navbar li, .navbar a { 
+  font-size: 16px;
+  color:#fff;
+  font-weight: 500; }
+.navbar a:hover {
+  color:#fff;
+  text-decoration: underline !important;
+}
+.navbar li:hover,
+.navbar li:hover > a:hover, 
+.navbar li:focus > a:focus,
+.nav .open>a, 
+.nav .open>a:hover, 
+.nav .open>a:focus { background-color: transparent;}
+
+.dropdown-menu>li>a {color: #fff; margin: 10px 0;}
+.dropdown-menu>li>a:hover,
+.nav>li>a:hover, .nav>li>a:focus {
+  color: #fff;
+  background-color: #22b573;
+}
+div#topbar {border-top:0;}
+.navbar-brand { 
+  font-size: 16px;
+  opacity:0;
+}
+.show-title {
+  opacity: 1;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
+  transition:  500ms;
+}
+ul.nav.navbar-nav.navbar-right {margin-right: 0;}
 
 /*
  * Page Header
@@ -313,6 +358,7 @@ h2 { display: inline-block;}
 }
 @media (max-width: 991px) and (min-width:768px){
   .sidebar {display: none;}
+  .dropdown-menu>li>a,.dropdown-menu>li>a:hover {color: #666;}
 }
 @media (max-width: 767px){ 
   .sidebar{display: none;}
