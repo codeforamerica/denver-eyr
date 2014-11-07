@@ -21,6 +21,7 @@ body {
   color: #333;
   font-size: 18px;
   position: relative;
+  line-height: 36px;
 }
 p {margin-bottom: 30px;}
 p > a, li > a { 
@@ -122,7 +123,7 @@ h1.line span:after {
   font-size: 1.2em;
   max-width: 65%;
 }
-.content-box > p, .content-box > ul {line-height: 36px;}
+/*.content-box > p, .content-box > ul {line-height: 36px;}*/
 
 /*
  * Side navigation
@@ -196,7 +197,8 @@ h1.line span:after {
 .tm-member {  
   text-align: center;
   font-weight: 400;
-  height: 250px;
+  /*height: 250px;*/
+  line-height: 18px;
 }
 
 .tm-member:hover {
@@ -208,11 +210,13 @@ h1.line span:after {
   transition:  500ms;
 }
 
+.tm-name, .tm-title { padding:0; }
+.tm-name { margin:30px 0 0 0; }
 .tm-member > .tm-title {
   font-size: 14px;
   color:#666;
+  /*line-height: 22px;*/
 }
-.tm-title:hover { color: #333; }
 
 .becky { background: url(../images/becky.jpg) no-repeat; }
 .drew { background: url(../images/drew.jpg) no-repeat; }
@@ -284,11 +288,11 @@ iframe {
  *
  */
 #intro, #team { text-align: center; }
-#team > h1 {padding-bottom: 60px;}
-#intro > h1 {padding-bottom: 30px;}
 #intro > h1, #team > h1 {
   color:#4d4d4d;
-  font-weight: 300;}
+  font-weight: 300;
+  padding-bottom: 40px;
+}
 h2 { display: inline-block;}
 
 
