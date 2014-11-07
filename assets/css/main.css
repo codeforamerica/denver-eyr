@@ -10,10 +10,7 @@
 }
 .main { padding: 0; }
 .row {margin: 0;}
-h1, h2, h3, h4, h5 { 
-  /*display: inline-block;*/
-  margin-top: 12px; 
-}
+h1, h2, h3, h4, h5 { margin-top: 12px; }
 body {
   padding-top: 50px;
   background-color: #f2f2f2;
@@ -23,6 +20,17 @@ body {
   font-size: 18px;
   line-height: 2em;
   position: relative;
+}
+p { margin-bottom: 30px;}
+p > a, li > a { 
+  font-weight: 400;}
+p > a:hover, li > a:hover { 
+  color: #f15a24;
+  text-decoration: none;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
+  transition:  500ms;
 }
 
 /*
@@ -98,9 +106,9 @@ h1.line span:after {
   border-radius: 5px;
   padding: 50px;
   margin: 50px;
-/*  -webkit-box-shadow: 0px 3px 10px 0px rgba(50, 50, 50, 0.1);
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(50, 50, 50, 0.1);
   -moz-box-shadow:    0px 3px 10px 0px rgba(50, 50, 50, 0.1);
-  box-shadow:         0px 3px 10px 0px rgba(50, 50, 50, 0.1);*/
+  box-shadow:         0px 3px 10px 0px rgba(50, 50, 50, 0.1);
 }
 .content-header {
   margin-bottom: 30px;
@@ -183,7 +191,7 @@ h1.line span:after {
   text-align: center;
   height: 250px;
 }
-.teammember {font-weight: 700;}
+.teammember {font-weight: 400;}
 .teammember:hover {
   color: #f15a24;
   text-decoration: none;
@@ -206,6 +214,8 @@ h1.line span:after {
  */
 .royalSlider {
   width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .rsDefaultInv,
 .rsDefaultInv .rsOverflow,
