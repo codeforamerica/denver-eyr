@@ -1,4 +1,8 @@
+var app = {} ;
+
 jQuery(document).ready(function($) {
+    app.hideTitle();
+    
     $(".royalSlider").royalSlider({
         // options go here
         // as an example, enable keyboard arrows nav
@@ -13,5 +17,8 @@ jQuery(document).ready(function($) {
           nativeFS: false
         }
 
-    });  
+        
+    });
+
+  
 });
