@@ -20,10 +20,9 @@ body {
   font-weight: 300;
   color: #333;
   font-size: 18px;
-  line-height: 2em;
   position: relative;
 }
-p { margin-bottom: 30px;}
+p {margin-bottom: 30px;}
 p > a, li > a { 
   font-weight: 400;}
 p > a:hover, li > a:hover { 
@@ -34,6 +33,7 @@ p > a:hover, li > a:hover {
   -o-transition: 500ms;
   transition:  500ms;
 }
+
 
 /*
  * Page Header
@@ -46,8 +46,6 @@ p > a:hover, li > a:hover {
   color: white;
   font-family: "aktiv-grotesk-std", Helvetica, Arial, sans-serif;
   text-align: center;
-
-
 }
 .lead {
   font-size: 2em;
@@ -124,7 +122,7 @@ h1.line span:after {
   font-size: 1.2em;
   max-width: 65%;
 }
-
+.content-box > p, .content-box > ul {line-height: 36px;}
 
 /*
  * Side navigation
@@ -184,22 +182,24 @@ h1.line span:after {
  *
  */
 .circular {
-  width: 150px;
-  height: 150px;
-  border-radius: 150px;
-  -webkit-border-radius: 150px;
-  -moz-border-radius: 150px;
+  width: 96px;
+  height: 96px;
+  border-radius: 96px;
+  -webkit-border-radius: 96px;
+  -moz-border-radius: 96px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 10px;
   margin-top: 10px;
 }
-.teammate {
+
+.tm-member {  
   text-align: center;
+  font-weight: 400;
   height: 250px;
 }
-.teammember {font-weight: 400;}
-.teammember:hover {
+
+.tm-member:hover {
   color: #f15a24;
   text-decoration: none;
   -webkit-transition: 500ms;
@@ -207,6 +207,13 @@ h1.line span:after {
   -o-transition: 500ms;
   transition:  500ms;
 }
+
+.tm-member > .tm-title {
+  font-size: 14px;
+  color:#666;
+}
+.tm-title:hover { color: #333; }
+
 .becky { background: url(../images/becky.jpg) no-repeat; }
 .drew { background: url(../images/drew.jpg) no-repeat; }
 .kavi { background: url(../images/kavi.jpg) no-repeat; }
@@ -277,8 +284,9 @@ iframe {
  *
  */
 #intro, #team { text-align: center; }
+#team > h1 {padding-bottom: 60px;}
+#intro > h1 {padding-bottom: 30px;}
 #intro > h1, #team > h1 {
-  padding-bottom: 30px;
   color:#4d4d4d;
   font-weight: 300;}
 h2 { display: inline-block;}
