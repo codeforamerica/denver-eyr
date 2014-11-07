@@ -11,67 +11,92 @@
     <title>CfA Denver End of Year Report</title>
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/custom-bootstrap.min.css">
     <link rel="stylesheet" href="assets/royalslider/royalslider.css">
     <!-- <link rel="stylesheet" href="assets/royalslider/skins/default/rs-default.css"> -->
     <!-- <link rel="stylesheet" href="assets/royalslider/skins/default/rs-default.css"> -->
-    <link rel="stylesheet" href="assets/royalslider/skins/default-inverted/rs-default-inverted.css"> 
-    
+    <link rel="stylesheet" href="assets/royalslider/skins/default-inverted/rs-default-inverted.css">
+
     <link href="assets/css/main.css" rel="stylesheet">
-  
+
   </head>
-  
+
   <body data-spy="scroll" data-target=".sidebar" >
 
-
+<!-- Static navbar -->
+<nav class="navbar navbar-default visible-sm visible-xs" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Denver Report 2014</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#intro">Intro</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#impact">Impact</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container-fluid -->
+</nav>
 
     <div class="container-fluid">
       <div class="row">
-          <div class="sidebar col-md-3 affix" role="complementary">
-            <ul class="nav sidenav">
-              
-                <li>
-                  <a href="#intro">Introduction</a>
-                </li>
-                <li>
-                  <a href="#projects">Projects</a>
-                  <ul class="nav">
-                    <li><a href="#street-sweeping">Denver Street Sweeping</a></li>
-                    <li><a href="#311">Denver 311 Indicators</a></li>
-                    <li><a href="#mj">Denver Marijuana Indicators</a></li>
-                    <li><a href="#cuties">@CutePetsInDenver</a></li>
-                    <li><a href="#pt">Denver Property Tax Statement</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#impact">Impact</a>
-                  <ul class="nav">
-                    <li><a href="#research">User Research</a></li>
-                    <li><a href="#info-template">Infographic Template</a></li>
-                    <li><a href="#events">Events</a></li>
-                    <li><a href="#brigade">Brigade</a></li>
-                    <li><a href="#blog-posts">Blog Posts</a></li>
-                    <li><a href="#press">Press</a></li>
-                  </ul>
-                </li>
-              
-            </ul>
-          </div> <!-- bs-sidebar -->
 
-        
-        <div class="col-md-9 col-md-offset-3 main" role="main">
 
-          <div class="jumbotron">
-            <div class="lead">Denver End of Year Report</div>
-            <div class="subtitle">Code for America, 2014</div>
-          </div>
+        <div class="col-md-12 main" role="main">
 
+
+          <div class="row">
+            <div class="col-md-3">
+              <div class="sidebar affix" role="complementary">
+                <ul class="nav sidenav">
+
+                    <li>
+                      <a href="#intro">Introduction</a>
+                    </li>
+                    <li>
+                      <a href="#projects">Projects</a>
+                      <ul class="nav">
+                        <li><a href="#street-sweeping">Denver Street Sweeping</a></li>
+                        <li><a href="#311">Denver 311 Indicators</a></li>
+                        <li><a href="#mj">Denver Marijuana Indicators</a></li>
+                        <li><a href="#cuties">@CutePetsInDenver</a></li>
+                        <li><a href="#pt">Denver Property Tax Statement</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#impact">Impact</a>
+                      <ul class="nav">
+                        <li><a href="#research">User Research</a></li>
+                        <li><a href="#info-template">Infographic Template</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#brigade">Brigade</a></li>
+                        <li><a href="#blog-posts">Blog Posts</a></li>
+                        <li><a href="#press">Press</a></li>
+                      </ul>
+                    </li>
+
+                </ul>
+              </div> <!-- bs-sidebar -->
+
+            </div>
+            <div class="col-md-9">
+              <div class="jumbotron">
+                <div class="lead">Denver End of Year Report</div>
+                <div class="subtitle">Code for America, 2014</div>
+              </div>
           <!-- Introduction
           ================================================== -->
           <div class="content-box">
             <h2 id="intro">Introduction</h2>
             <p>About: Some stuff about this year.</p>
-            
+
             <hr>
             <div class="row team">
               <div class="col-sm-4 teammate">
@@ -126,12 +151,16 @@
 
 
           <div id="street-sweeping" class="content-box">
+            <h2 id="projects">Projects</h2>
+            <p>Projects, Projects, Projects, Projects, </p>
+
+            <hr>
             <div class="content-header">
               <h2>Street Sweeping</h2>
               <button type="button" class="btn btn-sm btn-white pull-right">Get the Code</button>
               <button type="button" class="btn btn-sm btn-white pull-right">Visit the website</button>
             </div>
-            
+
               <p>
               <div class="inline-stat pull-right">
                 <span class="bold">$7.5 Million</span>
@@ -143,7 +172,7 @@
               <div class="royalSlider rsDefaultInv">
                 <img class="rsImg" src="assets/images/streetsweeping.png" alt="image desc" />
                 <img class="rsImg" src="assets/images/becky.jpg" alt="image desc" />
-              </div>  
+              </div>
 
           </div>
 
@@ -165,15 +194,15 @@
             </div>
 
             <p>Bill and Melinda Gates; disruptor liberal assistance Gandhi fundraising campaign. Protect clean water healthcare planned giving, investment humanitarian relief communities solution immunize. Human-centered design, transformative, altruism inspire social change challenges celebrate human rights implementation. Innovation, gender; empower sustainable future climate change new approaches resourceful. Catalytic effect Kickstarter Rockefeller criteria cornerstone, diversification proper resources nonprofit. Integrity, campaign invest underprivileged, innovate; freedom grantees. Visionary recognition thinkers who make change happen human experience approach affordable health care worldwide. Life-saving eradicate inspiration; collaborative cities solve rights-based approach marginalized communities achieve. Meaningful; voice positive social change Angelina Jolie promising development transform meaningful work. Conflict resolution,.</p>
-            
+
             <div class="royalSlider rsDefaultInv">
               <img class="rsImg" src="assets/images/meow.jpg" alt="a cat">
               <img class="rsImg" src="assets/images/woof.jpg" alt="a dog">
               <img class="rsImg" src="assets/images/whiskers.jpg" alt="a cat">
               <img class="rsImg" src="assets/images/fluffy.jpg" alt="a dog">
-            </div>  
+            </div>
 
-            
+
           </div>
 
           <div id="cuties" class="content-box">
@@ -182,8 +211,8 @@
               <button type="button" class="btn btn-sm btn-white pull-right">Get the Code</button>
               <button type="button" class="btn btn-sm btn-white pull-right">Visit the website</button>
             </div>
-            
-            <p>Bill and Melinda Gates; disruptor liberal assistance Gandhi fundraising campaign. Protect clean water healthcare planned giving, investment humanitarian relief communities solution immunize. Human-centered design, transformative, altruism inspire social change challenges celebrate human rights implementation. Innovation, gender; empower sustainable future climate change new approaches resourceful. Catalytic effect Kickstarter Rockefeller criteria cornerstone, diversification proper resources nonprofit. Integrity, campaign invest underprivileged, innovate; freedom grantees. Visionary recognition thinkers who make change happen human experience approach affordable health care worldwide. Life-saving eradicate inspiration; collaborative cities solve rights-based approach marginalized communities achieve. Meaningful; voice positive social change Angelina Jolie promising development transform meaningful work. Conflict resolution,.</p>            
+
+            <p>Bill and Melinda Gates; disruptor liberal assistance Gandhi fundraising campaign. Protect clean water healthcare planned giving, investment humanitarian relief communities solution immunize. Human-centered design, transformative, altruism inspire social change challenges celebrate human rights implementation. Innovation, gender; empower sustainable future climate change new approaches resourceful. Catalytic effect Kickstarter Rockefeller criteria cornerstone, diversification proper resources nonprofit. Integrity, campaign invest underprivileged, innovate; freedom grantees. Visionary recognition thinkers who make change happen human experience approach affordable health care worldwide. Life-saving eradicate inspiration; collaborative cities solve rights-based approach marginalized communities achieve. Meaningful; voice positive social change Angelina Jolie promising development transform meaningful work. Conflict resolution,.</p>
             <script src="https://embed.github.com/view/geojson/codeforamerica/CutePets/master/where.geojson"></script>
 
           </div>
@@ -195,14 +224,17 @@
             </div>
 
             <p>
-             
+
               Bill and Melinda Gates; disruptor liberal assistance Gandhi fundraising campaign. Protect clean water healthcare planned giving, investment humanitarian relief communities solution immunize. Human-centered design, transformative, altruism inspire <img class="inline-image pull-left" src="assets/images/research.jpg" alt="a cat"> social change challenges celebrate human rights implementation. Innovation, gender; empower sustainable future climate change new approaches resourceful. Catalytic effect Kickstarter Rockefeller criteria cornerstone, diversification proper resources nonprofit. Integrity, campaign invest underprivileged, innovate; freedom grantees. Visionary recognition thinkers who make change happen human experience approach affordable health care worldwide. Life-saving eradicate inspiration; collaborative cities solve rights-based approach marginalized communities achieve. Meaningful; voice positive social change Angelina Jolie promising development transform meaningful work. Conflict resolution,.</p>
           </div>
 
 
         </div> <!-- #main -->
-      </div> <!-- row -->   
-    </div> <!-- container -->   
+      </div>
+      </div>
+
+      </div> <!-- row -->
+    </div> <!-- container -->
 
 
     <!-- JS and analytics only. -->
@@ -214,6 +246,5 @@
     <script src="//use.typekit.net/swa5fok.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
     <script src="assets/javascript/denver-eyr.js"></script>
-    
   </body>
 </html>
