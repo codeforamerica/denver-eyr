@@ -121,6 +121,13 @@ h1.line span:after {
   max-width: 65%;
 }
 
+/*
+ * Top Navigation
+ *
+ */
+ .navbar {
+  margin-bottom: 0px;
+}
 
 /*
  * Side navigation
