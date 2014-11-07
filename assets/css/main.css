@@ -14,6 +14,8 @@ h1, h2, h3, h4, h5 { margin-top: 12px; }
 body {
   padding-top: 50px;
   background-color: #f2f2f2;
+  background-image: url("../images/sos.png");
+  background-repeat: repeat;
   font-family: "aktiv-grotesk-std", Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #333;
@@ -44,6 +46,8 @@ p > a:hover, li > a:hover {
   color: white;
   font-family: "aktiv-grotesk-std", Helvetica, Arial, sans-serif;
   text-align: center;
+
+
 }
 .lead {
   font-size: 2em;
@@ -225,7 +229,7 @@ h1.line span:after {
 .rsDefaultInv .rsSlide,
 .rsDefaultInv .rsVideoFrameHolder,
 .rsDefaultInv .rsThumbs {
-  background: #f2f2f2;
+  background: #fff;
   color: #222;
 }
 
