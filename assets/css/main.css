@@ -14,14 +14,16 @@ h1, h2, h3, h4, h5 { margin-top: 12px; }
 body {
   padding-top: 50px;
   background-color: #f2f2f2;
+  background-image: url("../images/sos.png");
+  background-repeat: repeat;
   font-family: "aktiv-grotesk-std", Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #333;
   font-size: 18px;
-  line-height: 2em;
   position: relative;
+  line-height: 36px;
 }
-p { margin-bottom: 30px;}
+p {margin-bottom: 30px;}
 p > a, li > a { 
   font-weight: 400;}
 p > a:hover, li > a:hover { 
@@ -32,6 +34,7 @@ p > a:hover, li > a:hover {
   -o-transition: 500ms;
   transition:  500ms;
 }
+
 
 /*
  * Page Header
@@ -123,6 +126,14 @@ h1.line span:after {
 
 
 /*
+ * Top Navigation
+ *
+ */
+ .navbar {
+  margin-bottom: 0px;
+}
+
+/*
  * Side navigation
  *
  * Scrollspy and affixed enhanced navigation to highlight sections and secondary
@@ -180,22 +191,24 @@ h1.line span:after {
  *
  */
 .circular {
-  width: 150px;
-  height: 150px;
-  border-radius: 150px;
-  -webkit-border-radius: 150px;
-  -moz-border-radius: 150px;
+  width: 96px;
+  height: 96px;
+  border-radius: 96px;
+  -webkit-border-radius: 96px;
+  -moz-border-radius: 96px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 10px;
   margin-top: 10px;
 }
-.teammate {
+
+.tm-member {  
   text-align: center;
-  height: 250px;
+  font-weight: 400;
+  line-height: 18px;
 }
-.teammember {font-weight: 400;}
-.teammember:hover {
+
+.tm-member:hover {
   color: #f15a24;
   text-decoration: none;
   -webkit-transition: 500ms;
@@ -203,6 +216,15 @@ h1.line span:after {
   -o-transition: 500ms;
   transition:  500ms;
 }
+
+.tm-name, .tm-title { padding:0; }
+.tm-name { margin:30px 0 0 0; }
+.tm-member > .tm-title {
+  font-size: 14px;
+  color:#666;
+  /*line-height: 22px;*/
+}
+
 .becky { background: url(../images/becky.jpg) no-repeat; }
 .drew { background: url(../images/drew.jpg) no-repeat; }
 .kavi { background: url(../images/kavi.jpg) no-repeat; }
@@ -274,9 +296,10 @@ iframe {
  */
 #intro, #team { text-align: center; }
 #intro > h1, #team > h1 {
-  padding-bottom: 30px;
   color:#4d4d4d;
-  font-weight: 300;}
+  font-weight: 300;
+  padding-bottom: 40px;
+}
 h2 { display: inline-block;}
 
 
