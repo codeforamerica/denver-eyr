@@ -225,7 +225,7 @@ h1.line span:after {
 .rsDefaultInv .rsSlide,
 .rsDefaultInv .rsVideoFrameHolder,
 .rsDefaultInv .rsThumbs {
-  background: #f2f2f2;
+  background: #fff;
   color: #222;
 }
 
