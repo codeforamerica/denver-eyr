@@ -26,6 +26,55 @@
 
     <div class="container-fluid">
       <div class="row">
+          <nav class="navbar navbar-default navbar-static visible-xs visible-sm" role="navigation">
+            <div class="navbar-header">
+              <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#topbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Denver End of Year Report</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="topbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <a href="#intro">Introduction</a>
+                </li>
+                <li>
+                  <a href="#team">Team</a>
+                </li>
+                <li class="dropdown">
+                  <a id="ddProjects" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Projects
+                    <span class="caret"></span>
+                  </a>
+
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="ddProjects">
+                    <li><a role="menuitem" href="#street-sweeping">Denver Street Sweeping</a></li>
+                    <li><a role="menuitem" href="#mj">Denver Marijuana Indicators</a></li>
+                    <li><a role="menuitem" href="#cuties">@CutePetsInDenver</a></li>
+                    <li><a role="menuitem" href="#pt">Denver Property Tax Statement</a></li>
+                    <li><a role="menuitem" href="#311">Denver 311 Indicators</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a id="ddImpacts" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Impact
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="ddImpacts">
+                    <li><a role="menuitem" href="#research">User Research</a></li>
+                    <li><a role="menuitem" href="#infographic">Infographic Template</a></li>
+                    <li><a role="menuitem" href="#events">Events</a></li>
+                    <li><a role="menuitem" href="#press">Press</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+        </nav>
+
           <div class="sidebar col-md-3 affix" role="complementary">
             <ul class="nav sidenav">
               
@@ -231,9 +280,9 @@
             <p>The 311 Data Visualization is a high level look at the most common 311 calls to the City and County of Denver. The visualization was a small project that helped the fellows examine and understand the city’s 311 open data set. In addition to helping us answer questions like “What are the topics people call about most frequently?” and “What types of cases took the most time to respond to?” there were other goals.  We wanted to demonstrate the value of open data and help the city easily track changes in the data over time.</p>
 
             <div class="royalSlider rsDefaultInv">
-                <img class="rsImg" src="assets/images/streetsweeping.png" alt="image desc" />
-                <img class="rsImg" src="assets/images/becky.jpg" alt="image desc" />
-              </div> 
+              <img class="rsImg" src="assets/images/streetsweeping.png" alt="image desc" />
+              <img class="rsImg" src="assets/images/becky.jpg" alt="image desc" />
+            </div> 
 
           </div>
 
@@ -264,7 +313,17 @@
               <a href="https://github.com/codeforamerica/denver-data-visualization-template" class="btn btn-sm btn-white pull-right"><i class="fa fa-github-alt fa-fw"></i><span class="hidden-xs hidden-sm"> Get the Code</span></a>
             </div>
 
-            <p> Bill and Melinda Gates; disruptor liberal assistance Gandhi fundraising campaign. Protect clean water healthcare planned giving, investment humanitarian relief communities solution immunize. Human-centered design, transformative, altruism inspire social change challenges celebrate human rights implementation. Innovation, gender; empower sustainable future climate change new approaches resourceful. Catalytic effect Kickstarter Rockefeller criteria cornerstone, diversification proper resources nonprofit. Integrity, campaign invest underprivileged, innovate; freedom grantees. Visionary recognition thinkers who make change happen human experience approach affordable health care worldwide. Life-saving eradicate inspiration; collaborative cities solve rights-based approach marginalized communities achieve. Meaningful; voice positive social change Angelina Jolie promising development transform meaningful work. Conflict resolution,.</p>
+            <p>In software engineering when you notice yourself writing the same code over and over it’s good practice to extract the logic for reuse. This way, refinements and modifications in one codebase can benefit another. The result of this process in our case was the Denver Data Visualization Template.</p>
+
+            <p>The template started as two separate visual dashboards created by the fellows in 2014. The first represented the city’s 311 call data and the second represented metrics from Denver’s marijuana industry. The style and technology used for both were similar.</p>
+            
+            <div class="royalSlider rsDefaultInv">
+              <img class="rsImg" src="assets/images/streetsweeping.png" alt="image desc" />
+              <img class="rsImg" src="assets/images/becky.jpg" alt="image desc" />
+            </div> 
+            
+            <p>Currently, the template is not a true stand alone library that the other projects reference. It’s a place where shared lessons from the projects are collected. It’s a starting place for future projects. Future enhancements will include an upgrade path for existing applications built off of the template.</p>
+            
           </div>
 
           <div id="events" class="content-box">

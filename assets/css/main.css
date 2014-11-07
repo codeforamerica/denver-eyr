@@ -123,7 +123,15 @@ h1.line span:after {
   font-size: 1.2em;
   max-width: 65%;
 }
-/*.content-box > p, .content-box > ul {line-height: 36px;}*/
+
+
+/*
+ * Top Navigation
+ *
+ */
+ .navbar {
+  margin-bottom: 0px;
+}
 
 /*
  * Side navigation
@@ -197,7 +205,6 @@ h1.line span:after {
 .tm-member {  
   text-align: center;
   font-weight: 400;
-  /*height: 250px;*/
   line-height: 18px;
 }
 
