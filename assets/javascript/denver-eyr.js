@@ -2,7 +2,8 @@ var app = {} ;
 
 jQuery(document).ready(function($) {
     app.hideTitle();
-    
+    app.hookupScrollShadow();
+
     $(".royalSlider").royalSlider({
         // options go here
         // as an example, enable keyboard arrows nav
