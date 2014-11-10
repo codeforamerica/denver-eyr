@@ -65,7 +65,7 @@ nav.navbar { border-color: #22b573; border-radius: 0;}
 
 .dropdown-menu>li>a {color: #fff; margin: 10px 0;}
 .dropdown-menu>li>a:hover,
-.nav>li>a:hover, .nav>li>a:focus {
+#topbar a:hover, .#topbar a:focus{
   color: #fff;
   background-color: #22b573;
 }
