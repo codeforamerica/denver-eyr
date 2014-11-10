@@ -54,6 +54,8 @@ nav.navbar { border-color: #22b573; border-radius: 0;}
   color:#fff;
   text-decoration: underline !important;
 }
+.navbar-nav>li>a, .navbar-nav .open .dropdown-menu>li>a {font-weight: 300;}
+
 .navbar li:hover,
 .navbar li:hover > a:hover, 
 .navbar li:focus > a:focus,
@@ -70,6 +72,7 @@ nav.navbar { border-color: #22b573; border-radius: 0;}
 div#topbar {border-top:0;}
 .navbar-brand { 
   font-size: 16px;
+  font-weight: 700;
   opacity:0;
 }
 .show-title {
@@ -80,11 +83,10 @@ div#topbar {border-top:0;}
   transition:  500ms;
 }
 ul.nav.navbar-nav.navbar-right {margin-right: 0;}
-
 .nav-shadow {
-  -webkit-box-shadow: 0 -4px 0px 4px #fff,0 2px 4px 0 rgba(0,0,0,0.1);
-  -moz-box-shadow: 0 -4px 0px 4px #fff,0 2px 4px 0 rgba(0,0,0,0.1);
-  box-shadow: 0 -4px 0px 4px #fff,0 2px 4px 0 rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0 -4px 0px 4px #ccc,0 2px 4px 0 rgba(0,0,0,.2);
+  -moz-box-shadow: 0 -4px 0px 4px #ccc,0 2px 4px 0 rgba(0,0,0,.2);
+  box-shadow: 0 -4px 0px 4px #ccc,0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 /*
@@ -197,6 +199,7 @@ h1.line span:after {
   padding: 20px;
   margin: 0;
   border-right: 1px solid #e6e6e6;
+  font-weight: 300;
 }
 .sidenav { line-height: 16px; }
 .sidenav li > ul > li { padding-left: 20px;}
@@ -337,9 +340,7 @@ img.inline-image.pull-left { margin-right: 20px; }
  * GeoJson Map
  *
  */
-iframe {
-  width: 100% !important;
-}
+iframe { width: 100% !important;}
 
 /*
  * Project-specific tweaks
